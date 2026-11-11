@@ -19,7 +19,7 @@ jobs:
         run: npm install
 
       - name: Gerar Prebuild
-        run: npx expo prebuil --platform ios --clean
+        run: npx expo prebuild --platform ios --clean
 
       - name: Instalar CocoaPods
         run: |
