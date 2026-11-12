@@ -20,7 +20,7 @@ jobs:
         uses: actions/setup-java@v4
         with:
           java-version: '17'
-          distribuition: 'temurin'
+          distribution: 'temurin'
       
       - name: Instalar dependências
         run: npm install
