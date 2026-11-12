@@ -34,7 +34,7 @@ jobs:
           ./gradlew assembleRelease
           
       - name: Upload APK
-        uses: actions/upload-artifacts@v4
+        uses: actions/upload-artifact@v4
         with:
           name: app
           path: androis/app/build/outputs/apk/release/app-release-unsigned.apk
